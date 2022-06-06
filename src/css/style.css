@@ -1,0 +1,516 @@
+body{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #171717;
+}
+
+.conteiner{
+    background-color: #E5E5E5;
+    min-width: 700px;
+    max-width: 1000px; 
+    padding: 64px 4.5%;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.subtitle{
+    margin-top: 79px;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+span{
+    color: red;
+}
+
+.paragraf{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.secondary{
+   display: flex;
+    justify-content: space-between; 
+}
+
+
+
+.ref{
+     width: 43%;
+}
+
+#ref{
+   padding: 9px 10px;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+
+.date{
+    width: 43%;
+}
+
+#date{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    background-color: #EFEFEF;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.phone{
+    width: 43%;
+}
+
+#tel{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.application{
+    margin-top: 10px;
+    width: 43%
+    
+}
+
+#application{
+    margin-top: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+
+}
+
+
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.email{
+    margin-top: 8px;
+    width: 43%;
+}
+
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.submission{
+    margin-top: 10px;
+    width: 43%
+}
+
+#submission{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    background-color: #EFEFEF;
+}
+
+
+.five{
+    margin-top: 15px;
+    width: 43%;
+}
+
+#registration{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    color: #0050D8;
+}
+
+.six{
+    display: flex;
+    justify-content: space-between;
+}
+
+.requested{
+    margin-top: 15px;
+    width: 43%;
+}
+
+#requested{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.purged{
+    display: flex;
+    align-items: center;
+    width: 43%;
+    margin-top: 15px;
+}
+
+.purged__button{
+    width: 24px;
+    height: 24px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.remaining{
+    margin-top: 15px;
+    width: 43%;
+}
+
+#remaining{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.exempt{
+    margin-top: 15px;
+    width: 43%
+}
+
+#exempt{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    }
+
+.eight{
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+.payment{
+    margin-top: 15px;
+    width: 43%;
+}
+    
+#payment{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    }
+
+.enrollment{
+    margin-top: 15px;
+    width: 43%
+}
+    
+#enrollment{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.nine{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.fee__button{
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+
+.line{
+    width: 81.6%;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 27px auto;
+}
+
+.maternity{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.maternity__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maternity1{
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+
+.maternity__button{
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+
+.parent{
+    margin-top: 15px;
+    width: 43%
+}
+
+#parent{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.official_title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.official_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.official_other{
+    width: 43%;
+}
+    
+#category{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+#indicator{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+
+
+.off {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 43%
+}
+    
+#arrears{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+#case {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.county{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.county_content{
+    margin-top: 15px;
+    width: 43%
+}
+    
+#assigned{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+#intergovernmental{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+.optional {
+    width: 43%;
+}
+
+.type{
+    width: 43%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.off_content {
+    width: 43%;
+}
+.number__case { 
+    width: 100%;
+    margin-top: 15px;
+    position: absolute;
+    left: 133%;
+    bottom: 0;
+    
+}
+
+.optional_one{
+    position: relative;
+    margin-top: 15px;
+    width: 43%
+}
+.referral {
+    margin-top: 15px;
+    width: 43%;
+   
+}
+#referral_number {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+    
+#status{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+#number{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+   
+}
+
+.special{
+    display: flex;
+    justify-content: space-between;
+}
+
+.special_content{
+    margin-top: 15px;
+    width: 43%
+}
+    
+#indicators{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.referral_number{
+    margin-top: 35px;
+}
+
+#referral_number{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    
+}
+
+.handling{
+    display: flex;
+    justify-content: space-between;
+}
+
+.handling_content{
+    margin-top: 15px;
+    width: 43%
+}
+    
+#parent__indicators{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+}
+
+.system__title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.system__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.system__content{
+    width: 43%
+}
+    
+#user{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+   
+}
+
+#supervisor{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    background-image: url(/image/img.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+}
+
+.system__info_secound{
+    display: flex;
+    justify-content: space-between;
+}
+
+.system__contents{
+    width: 43%
+}
+    
+#worker{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    background-image: url(/image/img.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+}
+
+#owner{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    color: #0050D8;
+    background-image: url(/image/img.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+}
+
+.button__next{
+    width: 69px;
+    height: 40px;
+    background-color: #0050D8;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-left: 85.9%;
+    margin-bottom: 110px;
+}
